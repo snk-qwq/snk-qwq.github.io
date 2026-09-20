@@ -45,3 +45,6 @@ footer { display: flex; justify-content: space-between; gap: 1rem; padding-block
   .intro { padding-block: 3rem 2.5rem; }
   section { padding-block: 2rem; }
 }
+
+/* 当前页面的导航标记。 */
+nav a[aria-current="page"] { color: var(--text); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; }
