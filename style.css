@@ -48,3 +48,24 @@ footer { display: flex; justify-content: space-between; gap: 1rem; padding-block
 
 /* 当前页面的导航标记。 */
 nav a[aria-current="page"] { color: var(--text); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; }
+
+
+.paper-list {
+  list-style: none;
+  padding-left: 2rem;
+  margin-top: 1.25rem;
+  font-family: var(--serif);
+  font-size: 1.125rem;
+}
+
+.paper-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+}
