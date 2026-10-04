@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 在这里修改浏览器标签页的标题 -->
+  <title>Proof, Functional of Riemann Zeta</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+
+  <script src="math-config.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+
+  <style>
+    .article-title {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: clamp(2.5rem, 7vw, 4.5rem);
+      line-height: 1.2;
+      letter-spacing: normal;
+      margin: 3rem 0 2rem;
+    }
+
+    .article-body {
+      padding-bottom: 3rem;
+      line-height: 1.85;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <!-- 在这里修改网页上显示的大标题 -->
+    <h1 class="article-title">An "Alternative" Proof of Functional Equation of Riemann Zeta Function</h1>
+
+    <article class="article-body">
+      <!-- 在这里写正文 -->
+
+
+
+      <!-- 正文结束 -->
+    </article>
+
+  </main>
+</body>
+</html>
