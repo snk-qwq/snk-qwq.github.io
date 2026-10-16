@@ -7,7 +7,8 @@ window.MathJax = {
       Z: '\\mathbb{Z}',
       R: '\\mathbb{R}',
       C: '\\mathbb{C}',
-      F: '\\mathbb{F}'
+      F: '\\mathbb{F}',
+      A: '\\mathbb{A}',
     }
   }
 };
