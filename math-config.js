@@ -3,12 +3,27 @@ window.MathJax = {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
     macros: {
-      Q: '\\mathbb{Q}',
-      Z: '\\mathbb{Z}',
-      R: '\\mathbb{R}',
-      C: '\\mathbb{C}',
-      F: '\\mathbb{F}',
-      A: '\\mathbb{A}',
+    R: '\\mathbb{R}',
+    C: '\\mathbb{C}',
+    Q: '\\mathbb{Q}',
+    Z: '\\mathbb{Z}',
+    N: '\\mathbb{N}',
+    F: '\\mathbb{F}',
+    K: '\\mathbb{K}',
+    A: '\\mathbb{A}',
+    O: '\\mathcal{O}',
+    Gal: '\\text{Gal}',
+    Aut: '\\text{Aut}',
+    GL: '\\text{GL}',
+    SL: '\\text{SL}',
+    End: '\\text{End}',
+    p: '\\mathfrak{p}',
+    Sha: '\\mathrm{III}',
+    Hom: '\\text{Hom}',
+    Res: '\\text{Res}',
+    disc: '\\operatorname{disc}',
+    vol: '\\operatorname{vol}',
+    covol: '\\operatorname{covol}'
     }
   }
 };
